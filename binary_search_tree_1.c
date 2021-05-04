@@ -256,7 +256,7 @@ int deleteLeafNode(Node* head, int key)
 		free(temp);
 	}
 	else{
-		printf("%d is not leafNode\n", key);
+		printf("%d is not leafNode\n");
 		return 0;
 	}
 
