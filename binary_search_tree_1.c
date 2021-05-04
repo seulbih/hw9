@@ -133,7 +133,7 @@ int initializeBST(Node** h) {
 	return 1;
 }
 
-void isEmpty(Node* ptr){
+void isEmpty(Node* ptr){ //빈 트리인지 구분(순회시 사용)
 	if(ptr==NULL){
 		printf("tree is empty!\n");
 		return ;
